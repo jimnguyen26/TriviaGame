@@ -1,0 +1,32 @@
+body {
+    background-image: url(../images/yosemitepic.jpg);
+    font-family: 'Bree Serif', serif;
+}
+
+.banner {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.timeRemaining {
+    font-size: 30px;
+    padding-top: 50px;
+    padding-left: 330px;
+}
+
+#timer {
+    font-size: 30px;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.questionOne,
+.questionTwo,
+.questionThree {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 70px;
+} 
+
+
