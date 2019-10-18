@@ -33,4 +33,22 @@ p {
     color: white;
 }
 
+.container2,
+.container3,
+.container4 {
+    padding-left: 300px;
+    padding-top: 30px;
+}
+
+#team2,
+#team3,
+#team4,
+#team6,
+#team7,
+#team8,
+#team10,
+#team11,
+#team12 {
+    margin-left: 50px;
+}
 
