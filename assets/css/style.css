@@ -1,63 +1,22 @@
+h1 {
+    text-align: center;
+}
+
 body {
     background-image: url(../images/sportscenter.jpg);
     font-family: 'Bree Serif', serif;
-}
-
-.banner {
-    font-size: 50px;
-    text-align: center;
-    padding-top: 40px;
-}
-
-.timeRemaining {
-    font-size: 30px;
-    padding-top: 50px;
-    padding-left: 330px;
-}
-
-#timer {
-    font-size: 30px;
-    padding-top: 50px;
-    padding-left: 20px;
-}
-
-.questionOne,
-.questionTwo,
-.questionThree {
-    font-size: 30px;
-    text-align: center;
-    padding-top: 70px;
-} 
-
-p {
+    font-size: 20px;
     color: white;
 }
 
-.container2,
-.container3,
-.container4 {
-    padding-left: 300px;
-    padding-top: 30px;
-}
-
-#team2,
-#team3,
-#team4,
-#team6,
-#team7,
-#team8,
-#team10,
-#team11,
-#team12 {
-    margin-left: 50px;
-}
-
-h2 {
+#time {
     text-align: center;
-    font-size: 30px;
+    padding-top: 20px;
 }
 
-.btn1 {
-    margin-left: 550px;
+.btn {
+    margin-left: 520px;
     margin-top: 50px;
+    font-size: 30px;
+    color: white;
 }

@@ -5,44 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>TriviaGame</title>
 </head>
 <body>
 
-      <div class="container1">
-    <div class="row">
-        <div class="col-sm-1 col-md-1"></div>
-        <div class="timeRemaining">Time Remaining: </div> <div id="timer"></div>
+<div class="container">
+
+    <h1>Sports Trivia!</h1>
+        
+    <div id="quiz" class="main-content">
+        <button id="start" class="btn">Start</button>
+        <div id="time"></div>
+
+        <div id="questionOne"></div>
+        <div id="answerOne"></div>
+        <div id="questionTwo"></div>
+        <div id="answerTwo"></div>
+        <div id="questionThree"></div>
+        <div id="answerThree"></div>
+        <div id="submit"></div>
+        
+        <div id="resultsMessage"></div>
+        <div id="correct"></div>
+        <div id="incorrect"></div>
+        <div id="unanswered"></div>
     </div>
 </div>
-<div class="questionOne">Which NFL team won the most championships in the 90's?</div>
-<div class="container2">
-<button class="btn btn-light" type="submit" id="team1">Cowboys</button>
-<button class="btn btn-light" type="submit" id="team2">49ers</button>
-<button class="btn btn-light" type="submit" id="team3">Broncos</button>
-<button class="btn btn-light" type="submit" id="team4">Packers</button>
-</div>
-
-<div class="questionTwo">Which NBA team won the most championships in the 90's?</div>
-<div class="container3">
-<button class="btn btn-light" type="submit" id="team5">Bulls</button>
-<button class="btn btn-light" type="submit" id="team6">Rockets</button>
-<button class="btn btn-light" type="submit" id="team7">Spurs</button>
-<button class="btn btn-light" type="submit" id="team8">Pistons</button>
-</div>
-
-<div class="questionThree">Which MLB team won the most championships in the 90's?</div>
-<div class="container4">
-    <button class="btn btn-light" type="submit" id="team9">Yankees</button>
-    <button class="btn btn-light" type="submit" id="team10">Blue Jays</button>
-    <button class="btn btn-light" type="submit" id="team11">Braves</button>
-    <button class="btn btn-light" type="submit" id="team12">Marlins</button>
-    </div>
-
-
 
 <script
   src="https://code.jquery.com/jquery-3.4.1.min.js"
