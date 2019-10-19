@@ -1,5 +1,5 @@
 body {
-    background-image: url(../images/yosemitepic.jpg);
+    background-image: url(../images/sportscenter.jpg);
     font-family: 'Bree Serif', serif;
 }
 
@@ -52,3 +52,12 @@ p {
     margin-left: 50px;
 }
 
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.btn1 {
+    margin-left: 550px;
+    margin-top: 50px;
+}

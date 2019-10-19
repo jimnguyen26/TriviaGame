@@ -15,11 +15,10 @@ var nflTeams = ["Cowboys", "49ers", "Broncos", "Packers"];
 function countdown() {
     if (timeLeft === 0) {
         clearTimeout(timerId);
-        alert('Correct Answers: ' + correctAnswer + ' Wrong Answers: ' + wrongAnswer);
+        // alert('Correct Answers: ' + correctAnswer + ' Wrong Answers: ' + wrongAnswer);
     } else {
         seconds.innerHTML = timeLeft + ' seconds';
         timeLeft--;
-        timeLeft === timeOut;
     }
 };
 
@@ -27,9 +26,10 @@ $('#team1').on('click', function() {
     this.style.backgroundColor = "green";
     correctAnswer++;
 console.log(correctAnswer);
+
 });
 
-$('#team2, #team3, #team4').on('click', function(){
+$('#team2, #team3, #team4').on('click', function() {
     this.style.backgroundColor = "red";
 wrongAnswer++;
 console.log(wrongAnswer);
